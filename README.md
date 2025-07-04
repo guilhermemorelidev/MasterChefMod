@@ -15,7 +15,7 @@ This error occurred due to a network failure when fetching the latest mod versio
 ## **🛠️ Fix Process**
 
 ### 1. **Deobfuscation with BON2**
-The original MasterChef mod `.jar` was obfuscated (with unreadable names like `func_148833_a`). To restore readable names, I used **BON2 (tterrag1098)**, a tool designed for 1.7.10 mods with MCP support.
+The original MasterChef mod `.jar` was obfuscated (with unreadable names like `func_148833_a`). To restore readable names, I used **[BON2 (tterrag1098)](https://github.com/tterrag1098/BON2/releases)**, a tool designed for 1.7.10 mods with MCP support.
 
 ### 2. **Decompilation with CFR**
 After deobfuscation, I used the **CFR** decompiler to obtain the mod's `.java` source code.
