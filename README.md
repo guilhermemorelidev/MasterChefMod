@@ -1,37 +1,72 @@
-# anatawa12's ForgeGradle 1.2 fork for Gradle 4.4.1+ - example project
+# MasterChef Mod (Forge 1.7.10)
 
-This is an example mod using the [fork of ForgeGradle-1.2 made by anatawa12](https://github.com/anatawa12/ForgeGradle-1.2).
-This fork supports Gradle 4.4.1 and later. This example project uses Gradle 5.6.4.
+Este é um mod de culinária para Minecraft 1.7.10 criado originalmente por **Minetronic**, 
 
-## How to use this example project
+---
 
-You can download this example project from [here](https://github.com/anatawa12/ForgeGradle-example/archive/master.zip), or use it as a template on Github.
-This project can be used as a replacement for Forge's 1.7.10 MDK.
+## ⚠️ Erro original
 
-## How to replace ForgeGradle 1.2. with anatawa12's fork
-Although this example project has some differences to Forge's 1.7.10 MDK, anatawa12's fork of ForgeGradle 1.2 can be used by most projects with only minimal changes to their Gradle build script.
+Ao iniciar um mundo, o jogo crashava com o seguinte erro:
 
-Here is a list of changes to Forge's 1.7.10 MDK Gradle build script, to replace the official ForgeGradle 1.2 plugin with the fork. These changes are likely to work with most projects based on Forge's 1.7.10 MDK.
+java.lang.NullPointerException: Ticking memory connection
+at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:101)
 
-In the repositories block of the buildscript section, add jcenter, and switch the Forge maven to use HTTPS instead of HTTP:
-```diff
-     repositories {
-         mavenCentral()
-         maven {
-             name = "forge"
--            url = "http://files.minecraftforge.net/maven"
-+            url = "https://maven.minecraftforge.net/"
-         }
-```
+Esse erro acontecia por causa de uma falha de rede ao buscar a versão mais recente do mod através da classe `JavaGetUrl`. O sistema não tratava corretamente casos de erro de conexão, resultando em `null` durante o processamento de pacotes de rede.
 
-Also in the dependencies block of the buildscript section, change the dependency on Forge's official ForgeGradle 1.2 to the fork:
-```diff
-     dependencies {
--        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
-+        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.1.+') {
-+            changing = true
-+        }
-     }
-```
+---
 
-The Gradle wrapper should also be changed to use Gradle 4.4.1 or higher. <!--Currently, the plugin [does not support Gradle 6.x](https://github.com/anatawa12/ForgeGradle-1.2/issues/9), although this may change in the future. As such, the latest version of Gradle this plugin supports is Gradle 5.6.4.-->
+## ✅ O que foi corrigido
+
+### 🔧 Arquivo: `ItemChefGarb.java`
+
+- Corrigida a tipagem incorreta dos mapas:
+  ```java
+  HashMap<Object, Object> → HashMap<String, ExtraSpeed>
+Corrigido uso da variável extraFurnaceSpeed para aceitar corretamente mapas tipados.
+
+Corrigida a lógica do purgeList() para evitar ConcurrentModificationException.
+
+🌐 Arquivo: JavaGetUrl.java
+Tratamento de exceções de rede adicionado.
+
+Corrigido o acesso à InputStream.
+
+Corrigida separação entre VERSION e EXTRA_INFO.
+
+🛠️ Ambiente de Build
+Este projeto utiliza:
+
+ForgeGradle mantido por anatawa12, adaptado para compilar mods antigos (como 1.7.10) em setups modernos de Gradle.
+https://github.com/anatawa12/ForgeGradle-example
+
+Java 8 (recomendado: Oracle JDK 1.8.0_202)
+
+Gradle 7.x+
+
+📦 Como compilar
+./gradlew build
+Após o build, o .jar gerado estará em build/libs/.
+
+📥 Como instalar
+Instale o Forge 1.7.10 (recomendado: 10.13.4.1614)
+
+Coloque o .jar em .minecraft/mods
+
+Inicie o Minecraft com Forge
+
+👥 Créditos
+👨‍🍳 Minetronic — autor original do mod
+
+🛠️ anatawa12 — ForgeGradle moderno usado para compilar
+
+🔁 Correções e manutenção: Este fork foi corrigido com foco em manter compatibilidade do mod, que já não funfava mais.
+
+🤝 Contribuindo
+Sugestões, melhorias ou correções são sempre aceitas.
+
+Você pode ajudar com:
+Novas receitas ou itens
+Melhorias gráficas ou de desempenho
+Traduções e localização
+Compatibilidade com outros mods
+
