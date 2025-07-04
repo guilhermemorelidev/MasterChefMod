@@ -15,6 +15,24 @@ Esse erro acontecia por causa de uma falha de rede ao buscar a versão mais rece
 
 ---
 
+## 🛠️ Processo de Correção
+
+1. **Desofuscação com BON2**  
+   O `.jar` original do mod MasterChef estava ofuscado (com nomes ilegíveis como `func_148833_a`). Para restaurar os nomes legíveis, utilizei o **[BON2 (Bearded Octo Nemesis)](https://github.com/luacs1998/BON2)**, uma ferramenta voltada para mods 1.7.10 com suporte ao MCP.
+
+2. **Descompilação com CFR**  
+   Após a desofuscação, utilizei o decompilador **CFR** para obter o código-fonte `.java` do mod.
+
+3. **Reestruturação do Projeto**  
+   - Organizei os pacotes e arquivos em um projeto ForgeGradle compatível.
+
+4. **Correção de código**  
+   - Corrigi erros de tipagem com `HashMap`.
+   - Adicionei tratamento de exceções nas classes `JavaGetUrl` e `MessageChecker`.
+   - Corrigi a lógica de `ItemChefGarb` para evitar `ConcurrentModificationException`.
+
+---
+
 ## ✅ O que foi corrigido
 
 ### 🔧 Arquivo: `ItemChefGarb.java`
