@@ -18,7 +18,7 @@ Esse erro acontecia por causa de uma falha de rede ao buscar a versão mais rece
 ## 🛠️ Processo de Correção
 
 1. **Desofuscação com BON2**  
-   O `.jar` original do mod MasterChef estava ofuscado (com nomes ilegíveis como `func_148833_a`). Para restaurar os nomes legíveis, utilizei o **[BON2 (Bearded Octo Nemesis)](https://github.com/luacs1998/BON2)**, uma ferramenta voltada para mods 1.7.10 com suporte ao MCP.
+   O `.jar` original do mod MasterChef estava ofuscado (com nomes ilegíveis como `func_148833_a`). Para restaurar os nomes legíveis, utilizei o **[BON2 (tterrag1098)](https://github.com/tterrag1098/BON2/releases)**, uma ferramenta voltada para mods 1.7.10 com suporte ao MCP.
 
 2. **Descompilação com CFR**  
    Após a desofuscação, utilizei o decompilador **CFR** para obter o código-fonte `.java` do mod.
