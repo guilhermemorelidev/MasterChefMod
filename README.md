@@ -1,90 +1,81 @@
-# MasterChef Mod (Forge 1.7.10)
+# **MasterChef Mod (Forge 1.7.10)**
 
-Este é um mod de culinária para Minecraft 1.7.10 criado originalmente por **Minetronic**, 
+This is a culinary mod for Minecraft 1.7.10 originally created by **Minetronic**.
 
----
+## **⚠️ Original Issue**
 
-## ⚠️ Erro original
-
-Ao iniciar um mundo, o jogo crashava com o seguinte erro:
-
-java.lang.NullPointerException: Ticking memory connection
+When starting a world, the game would crash with the following error:
+```
+java.lang.NullPointerException: Ticking memory connection 
 at cpw.mods.fml.common.network.internal.FMLProxyPacket.func_148833_a(FMLProxyPacket.java:101)
+```
 
-Esse erro acontecia por causa de uma falha de rede ao buscar a versão mais recente do mod através da classe `JavaGetUrl`. O sistema não tratava corretamente casos de erro de conexão, resultando em `null` durante o processamento de pacotes de rede.
+This error occurred due to a network failure when fetching the latest mod version through the `JavaGetUrl` class. The system didn't properly handle connection error cases, resulting in `null` during network packet processing.
 
----
+## **🛠️ Fix Process**
 
-## 🛠️ Processo de Correção
+### 1. **Deobfuscation with BON2**
+The original MasterChef mod `.jar` was obfuscated (with unreadable names like `func_148833_a`). To restore readable names, I used **BON2 (tterrag1098)**, a tool designed for 1.7.10 mods with MCP support.
 
-1. **Desofuscação com BON2**  
-   O `.jar` original do mod MasterChef estava ofuscado (com nomes ilegíveis como `func_148833_a`). Para restaurar os nomes legíveis, utilizei o **[BON2 (tterrag1098)](https://github.com/tterrag1098/BON2/releases)**, uma ferramenta voltada para mods 1.7.10 com suporte ao MCP.
+### 2. **Decompilation with CFR**
+After deobfuscation, I used the **CFR** decompiler to obtain the mod's `.java` source code.
 
-2. **Descompilação com CFR**  
-   Após a desofuscação, utilizei o decompilador **CFR** para obter o código-fonte `.java` do mod.
+### 3. **Project Restructuring**
+* Organized packages and files into a ForgeGradle-compatible project.
 
-3. **Reestruturação do Projeto**  
-   - Organizei os pacotes e arquivos em um projeto ForgeGradle compatível.
+### 4. **Code Fixes**
+* Fixed typing errors with `HashMap`.
+* Added exception handling in `JavaGetUrl` and `MessageChecker` classes.
+* Fixed `ItemChefGarb` logic to prevent `ConcurrentModificationException`.
 
-4. **Correção de código**  
-   - Corrigi erros de tipagem com `HashMap`.
-   - Adicionei tratamento de exceções nas classes `JavaGetUrl` e `MessageChecker`.
-   - Corrigi a lógica de `ItemChefGarb` para evitar `ConcurrentModificationException`.
+## **✅ What Was Fixed**
 
----
+### **🔧 File: `ItemChefGarb.java`**
+* Fixed incorrect map typing:
+```java
+HashMap<Object, Object> → HashMap<String, ExtraSpeed>
+```
+* Fixed `extraFurnaceSpeed` variable usage to properly accept typed maps.
+* Fixed `purgeList()` logic to prevent `ConcurrentModificationException`.
 
-## ✅ O que foi corrigido
+### **🌐 File: `JavaGetUrl.java`**
+* Added network exception handling.
+* Fixed `InputStream` access.
+* Fixed separation between `VERSION` and `EXTRA_INFO`.
 
-### 🔧 Arquivo: `ItemChefGarb.java`
+## **🛠️ Build Environment**
 
-- Corrigida a tipagem incorreta dos mapas:
-  ```java
-  HashMap<Object, Object> → HashMap<String, ExtraSpeed>
-Corrigido uso da variável extraFurnaceSpeed para aceitar corretamente mapas tipados.
+This project uses:
+* **ForgeGradle** maintained by anatawa12, adapted to compile legacy mods (like 1.7.10) on modern Gradle setups: https://github.com/anatawa12/ForgeGradle-example
+* **Java 8** (recommended: Oracle JDK 1.8.0_202)
+* **Gradle 7.x+**
 
-Corrigida a lógica do purgeList() para evitar ConcurrentModificationException.
+## **📦 How to Compile**
 
-🌐 Arquivo: JavaGetUrl.java
-Tratamento de exceções de rede adicionado.
-
-Corrigido o acesso à InputStream.
-
-Corrigida separação entre VERSION e EXTRA_INFO.
-
-🛠️ Ambiente de Build
-Este projeto utiliza:
-
-ForgeGradle mantido por anatawa12, adaptado para compilar mods antigos (como 1.7.10) em setups modernos de Gradle.
-https://github.com/anatawa12/ForgeGradle-example
-
-Java 8 (recomendado: Oracle JDK 1.8.0_202)
-
-Gradle 7.x+
-
-📦 Como compilar
+```bash
 ./gradlew build
-Após o build, o .jar gerado estará em build/libs/.
+```
 
-📥 Como instalar
-Instale o Forge 1.7.10 (recomendado: 10.13.4.1614)
+After building, the generated `.jar` will be in `build/libs/`.
 
-Coloque o .jar em .minecraft/mods
+## **📥 How to Install**
 
-Inicie o Minecraft com Forge
+1. Install Forge 1.7.10 (recommended: 10.13.4.1614)
+2. Place the `.jar` in `.minecraft/mods`
+3. Start Minecraft with Forge
 
-👥 Créditos
-👨‍🍳 Minetronic — autor original do mod
+## **👥 Credits**
 
-🛠️ anatawa12 — ForgeGradle moderno usado para compilar
+* 👨‍🍳 **Minetronic** — Original mod author
+* 🛠️ **anatawa12** — Modern ForgeGradle used for compilation
+* 🔁 **Fixes and maintenance:** This fork was fixed with focus on maintaining mod compatibility, which was no longer working.
 
-🔁 Correções e manutenção: Este fork foi corrigido com foco em manter compatibilidade do mod, que já não funfava mais.
+## **🤝 Contributing**
 
-🤝 Contribuindo
-Sugestões, melhorias ou correções são sempre aceitas.
+Suggestions, improvements, or fixes are always welcome.
 
-Você pode ajudar com:
-Novas receitas ou itens
-Melhorias gráficas ou de desempenho
-Traduções e localização
-Compatibilidade com outros mods
-
+You can help with:
+* New recipes or items
+* Graphics or performance improvements
+* Translations and localization
+* Compatibility with other mods
