@@ -1,0 +1,425 @@
+//Items
+item.rock_salt.name=Rock Salt
+item.sea_salt.name=Sea Salt
+item.ice_shard.name=Ice Shard
+
+item.chocolate_sauce.name=Chocolate Sauce
+item.strawberry_sauce.name=Strawberry Sauce
+item.blueberry_sauce.name=Blueberry Sauce
+item.caramel_sauce.name=Caramel Sauce
+item.tomato_sauce.name=Tomato Sauce
+item.apple_sauce.name=Apple Sauce
+item.melon_sauce.name=Melon Sauce
+item.apple_sauce.name=Apple Sauce
+item.mango_sauce.name=Mango Sauce
+
+item.apple_ice_cream_ball.name=Apple Ice Cream Ball
+item.melon_ice_cream_ball.name=Melon Ice Cream Ball
+item.strawberry_ice_cream_ball.name=Strawberry Ice Cream Ball
+item.blueberry_ice_cream_ball.name=Blueberry Ice Cream Ball
+item.chocolate_ice_cream_ball.name=Chocolate Ice Cream Ball
+item.caramel_ice_cream_ball.name=Caramel Ice Cream Ball
+item.mango_ice_cream_ball.name=Mango Ice Cream Ball
+item.fried_ice_cream_ball.name=Fried Ice Cream Ball
+
+item.malt_bucket_corn.name=Malt Bucket (Corn)
+item.malt_bucket_reeds.name=Malt Bucket (Reeds)
+
+item.bio_ethanol_bucket_corn.name=Bio Ethanol Bucket (Corn)
+item.bio_ethanol_bucket_reeds.name=Bio Ethanol Bucket (Reeds)
+
+item.butter.name=Butter
+item.fish_oil.name=Fish Oil
+item.olive_oil.name=Olive Oil
+
+item.bread_crumbs.name=Bread Crumbs
+item.starch.name=Starch
+
+//Armor
+
+item.chef_hat.name=Chef Hat
+item.chef_body.name=Chef Body
+item.chef_leggings.name=Chef Leggings
+item.chef_boots.name=Chef Boots
+
+//Tools
+
+item.cutting_knife.name=Cutting Knife
+item.butchers_knife.name=Butcher's Knife
+item.sickle.name=Sickle
+item.stamper.name=Stamper
+
+//Food
+
+item.nori_leaf.name=Nori Leaf
+item.sushi_cone.name=Sushi Cone
+item.sushi.name=Sushi
+
+item.fried_egg.name=Fried Egg
+item.croquette.name=Croquette
+item.cheese.name=Cheese
+
+item.fried_fish.name=Fried Fish
+item.fried_salmon.name=Fried Salmon
+item.fried_chicken.name=Fried Chicken
+
+item.beef_stew.name=Beef Stew
+item.pork_stew.name=Pork Stew
+
+item.stuffed_fish.name=Stuffed Fish
+item.stuffed_salmon.name=Stuffed Salmon
+
+item.caramel.name=Caramel
+item.caramelized_apple.name=Caramelized Apple
+
+item.grape_sugar.name=[Standard] Grape Sugar
+item.strong_grape_sugar.name=[Strong] Grape Sugar
+
+item.raw_squid.name=Raw Squid
+item.boiled_squid.name=Boiled Squid
+item.fried_calamari.name=Fried Calamari
+
+item.mutton.name=Raw Mutton
+item.cooked_mutton.name=Cooked Mutton
+item.salted_mutton.name=Salted Mutton
+
+item.boiled_carrot.name=Boiled Carrot
+item.baked_carrot.name=Baked Carrot
+
+item.salted_mutton.name=Salted Mutton
+item.salted_chicken.name=Salted Chicken
+item.salted_porkchop.name=Salted Porkchop
+item.salted_steak.name=Salted Steak
+item.salted_squid.name=Salted Squid
+item.salted_fried_egg.name=Salted Fried Egg
+
+item.dried_bread_slice.name=Dried Bread Slice
+item.bread_slice.name=Bread Slice
+item.toast.name=Toast
+item.cheese_toast.name=Cheese Toast
+item.cheese_toast_with_egg.name=Cheese Toast With Egg
+item.toast_with_lettuce.name=Toast With Lettuce
+item.strawberry_toast.name=Strawberry Toast
+item.blueberry_toast.name=Blueberry Toast
+item.butter_toast.name=Butter Toast
+item.pumpkin_bread.name=Pumpkin Bread
+item.raisin_bread.name=Raisin Bread
+
+item.corn_bread.name=Corn Bread
+item.baked_corn_bread.name=Baked Corn Bread
+item.hamburger_bread.name=Hamburger Bread
+item.toasted_hamburger_bread.name=Toasted Hamburger Bread
+item.steak_burger.name=Steak Burger
+item.pork_burger.name=Pork Burger
+item.chicken_burger.name=Chicken Burger
+item.fish_burger.name=Fish Burger
+
+item.strawberry_candy.name=Strawberry Candy
+item.blueberry_candy.name=Blueberry Candy
+item.apple_candy.name=Apple Candy
+
+item.apple_pie.name=Apple Pie
+item.strawberry_pie.name=Strawberry Pie
+item.blueberry_pie.name=Blueberry Pie
+item.chocolate_pie.name=Chocolate Pie
+
+item.dark_chocolate.name=Dark Chocolate
+item.chocolate.name=Chocolate
+item.chocolate_bar.name=Chocolate Bar
+item.chocolate_milk.name=Chocolate Milk
+item.hot_chocolate.name=Hot Chocolate
+item.milk_bowl.name=Milk Bowl
+item.hot_milk.name=Hot Milk
+
+item.ice_cream_cone.name=Ice Cream Cone
+item.apple_ice_cream.name=Apple Ice Cream
+item.melon_ice_cream.name=Melon Ice Cream
+item.strawberry_ice_cream.name=Strawberry Ice Cream
+item.blueberry_ice_cream.name=Blueberry Ice Cream
+item.chocolate_ice_cream.name=Chocolate Ice Cream
+item.caramel_ice_cream.name=Caramel Ice Cream
+item.mango_ice_cream.name=Mango Ice Cream
+item.fried_ice_cream.name=Fried Ice Cream
+
+item.apple_ice_cream_with_chocolate_sauce.name=Apple Ice Cream With Chocolate Sauce
+item.melon_ice_cream_with_chocolate_sauce.name=Melon Ice Cream With Chocolate Sauce
+item.strawberry_ice_cream_with_chocolate_sauce.name=Strawberry Ice Cream With Chocolate Sauce
+item.blueberry_ice_cream_with_chocolate_sauce.name=Blueberry Ice Cream With Chocolate Sauce
+item.caramel_ice_cream_with_chocolate_sauce.name=Caramel Ice Cream With Chocolate Sauce
+item.apple_ice_cream_with_chocolate_sauce.name=Mango Ice Cream With Chocolate Sauce
+
+item.apple_ice_cream_with_strawberry_sauce.name=Apple Ice Cream With Strawberry Sauce
+item.melon_ice_cream_with_strawberry_sauce.name=Melon Ice Cream With Strawberry Sauce
+item.chocolate_ice_cream_with_strawberry_sauce.name=Chocolate Ice Cream With Strawberry Sauce
+item.blueberry_ice_cream_with_strawberry_sauce.name=Blueberry Ice Cream With Strawberry Sauce
+item.caramel_ice_cream_with_strawberry_sauce.name=Caramel Ice Cream With Strawberry Sauce
+item.apple_ice_cream_with_strawberry_sauce.name=Mango Ice Cream With Strawberry Sauce
+
+item.apple_ice_cream_with_blueberry_sauce.name=Apple Ice Cream With Blueberry Sauce
+item.melon_ice_cream_with_blueberry_sauce.name=Melon Ice Cream With Blueberry Sauce
+item.strawberry_ice_cream_with_blueberry_sauce.name=Strawberry Ice Cream With Blueberry Sauce
+item.chocolate_ice_cream_with_blueberry_sauce.name=Chocolate Ice Cream With Blueberry Sauce
+item.caramel_ice_cream_with_blueberry_sauce.name=Caramel Ice Cream With Blueberry Sauce
+item.apple_ice_cream_with_blueberry_sauce.name=Mango Ice Cream With Blueberry Sauce
+
+item.apple_ice_cream_with_caramel_sauce.name=Apple Ice Cream With Caramel Sauce
+item.melon_ice_cream_with_caramel_sauce.name=Melon Ice Cream With Caramel Sauce
+item.strawberry_ice_cream_with_caramel_sauce.name=Strawberry Ice Cream With Caramel Sauce
+item.chocolate_ice_cream_with_caramel_sauce.name=Chocolate Ice Cream With Caramel Sauce
+item.blueberry_ice_cream_with_caramel_sauce.name=Blueberry Ice Cream With Caramel Sauce
+item.apple_ice_cream_with_caramel_sauce.name=Mango Ice Cream With Caramel Sauce
+
+item.apple_ice_cream_with_mango_sauce.name=Apple Ice Cream With Mango Sauce
+item.melon_ice_cream_with_mango_sauce.name=Melon Ice Cream With Mango Sauce
+item.strawberry_ice_cream_with_mango_sauce.name=Strawberry Ice Cream With Mango Sauce
+item.chocolate_ice_cream_with_mango_sauce.name=Chocolate Ice Cream With Mango Sauce
+item.blueberry_ice_cream_with_mango_sauce.name=Blueberry Ice Cream With Mango Sauce
+item.caramel_ice_cream_with_mango_sauce.name=Caramel Ice Cream With Mango Sauce
+
+item.melon_ice_cream_with_apple_sauce.name=Melon Ice Cream With Apple Sauce
+item.strawberry_ice_cream_with_apple_sauce.name=Strawberry Ice Cream With Apple Sauce
+item.chocolate_ice_cream_with_apple_sauce.name=Chocolate Ice Cream With Apple Sauce
+item.blueberry_ice_cream_with_apple_sauce.name=Blueberry Ice Cream With Apple Sauce
+item.caramel_ice_cream_with_apple_sauce.name=Caramel Ice Cream With Apple Sauce
+item.mango_ice_cream_with_apple_sauce.name=Mango Ice Cream With Apple Sauce
+
+item.apple_ice_cream_with_melon_sauce.name=Apple Ice Cream With Melon Sauce
+item.strawberry_ice_cream_with_melon_sauce.name=Strawberry Ice Cream With Melon Sauce
+item.chocolate_ice_cream_with_melon_sauce.name=Chocolate Ice Cream With Melon Sauce
+item.blueberry_ice_cream_with_melon_sauce.name=Blueberry Ice Cream With Melon Sauce
+item.caramel_ice_cream_with_melon_sauce.name=Caramel Ice Cream With Melon Sauce
+item.apple_ice_cream_with_melon_sauce.name=Mango Ice Cream With Melon Sauce
+
+item.caramel_ice_cream_with_chocolate_streaks.name=Caramel Ice Cream With Chocolate Streaks
+
+item.vegetable_soup.name=Vegetable Soup
+item.hot_vegetable_soup.name=Hot Vegetable Soup
+item.carrot_soup.name=Carrot Soup
+item.hot_carrot_soup.name=Hot Carrot Soup
+item.tomato_soup.name=Tomato Soup
+item.hot_tomato_soup.name=Hot Tomato Soup
+item.bell_pepper_soup.name=Bell Pepper Soup
+item.hot_bell_pepper_soup.name=Hot Bell Pepper Soup
+item.onion_soup.name=Onion Soup
+item.hot_onion_soup.name=Hot Onion Soup
+item.asparagus_soup.name=Asparagus Soup
+item.hot_asparagus_soup.name=Hot Asparagus Soup
+item.chicken_soup.name=Chicken Soup
+item.hot_chicken_soup.name=Hot Chicken Soup
+
+item.strawberry_cookie.name=Strawberry Cookie
+item.blueberry_cookie.name=Blueberry Cookie
+item.apple_cookie.name=Apple Cookie
+item.butter_cookie.name=Butter Cookie
+item.chocolate_cookie.name=Chocolate Cookie
+item.caramel_cookie.name=Caramel Cookie
+
+item.pizza_dough_slice.name=Pizza Dough Slice
+item.raw_pizza_with_tomato_sauce_slice.name=Raw Pizza With Tomato Sauce Slice
+item.raw_pizza_margharita_slice.name=Raw Pizza Margharita Slice
+item.raw_pizza_bacon_slice.name=Raw Pizza Bacon Slice
+item.raw_pizza_onion_slice.name=Raw Pizza Onion Slice
+item.raw_pizza_mushroom_slice.name=Raw Pizza Funghi Slice
+
+item.pizza_margharita_slice.name=Pizza Margharita Slice
+item.pizza_onion_slice.name=Pizza Onion Slice
+item.pizza_bacon_slice.name=Pizza Bacon Slice
+item.pizza_mushroom_slice.name=Pizza Funghi Slice
+
+item.dried_tomato.name=Dried Tomato
+item.baked_tomato.name=Baked Tomato
+item.tomato_slice.name=Tomato Slice
+
+item.mango_slice.name=Mango Slice
+
+item.apple_slice.name=Apple Slice
+item.baked_apple_slice.name=Baked Apple Slice
+
+item.fried_strawberry.name=Fried Strawberry
+item.fried_carrot.name=Fried Carrot
+item.fried_bell_pepper.name=Fried Bell Pepper
+item.fried_apple_slice.name=Fried Apple Slice
+
+item.dried_blueberry.name=Dried Blueberry
+item.dried_strawberry.name=Dried Strawberry
+item.dried_apple_slice.name=Dried Apple Slice
+item.raisin.name=Raisins
+
+item.green_bell_pepper_half.name=Green Bell Pepper Half
+item.yellow_bell_pepper_half.name=Yellow Bell Pepper Half
+item.red_bell_pepper_half.name=Red Bell Pepper Half
+
+item.green_bell_pepper_half_with_egg.name=Green Bell Pepper Half With Egg
+item.yellow_bell_pepper_half_with_egg.name=Yellow Bell Pepper Half With Egg
+item.red_bell_pepper_half_with_egg.name=Red Bell Pepper Half With Egg
+
+item.baked_green_bell_pepper.name=Baked Green Bell Pepper
+item.baked_yellow_bell_pepper.name=Baked Yellow Bell Pepper
+item.baked_red_bell_pepper.name=Baked Red Bell Pepper
+
+item.stuffed_green_bell_pepper_half.name=Stuffed Green Bell Pepper Half
+item.stuffed_yellow_bell_pepper_half.name=Stuffed Yellow Bell Pepper Half
+item.stuffed_red_bell_pepper_half.name=Stuffed Red Bell Pepper Half
+
+item.onion_slice.name=Onion Slice
+item.baked_onion_slice.name=Baked Onion Slice
+
+item.baked_asparagus.name=Baked Asparagus
+item.buttered_asparagus.name=Buttered Asparagus
+
+item.boiled_corn.name=Boiled Corn
+item.bowl_with_corn.name=Bowl With Corn
+item.popcorn.name=Popcorn
+item.sugared_popcorn.name=Sugared Popcorn
+item.salted_popcorn.name=Salted Popcorn
+item.caramelized_popcorn.name=Caramelized Popcorn
+
+item.bowl_with_rice.name=Bowl With Rice
+item.boiled_rice.name=Boiled Rice
+item.salted_boiled_rice.name=Salted Boiled Rice
+item.baked_rice.name=Baked Rice
+
+item.fruit_salad.name=Fruit Salad
+item.salad_mix.name=Salad Mix
+item.salad_with_fish.name=Salad With Fish
+item.fish_and_chips.name=Fish And Chips
+
+item.boiled_egg.name=Boiled Egg
+
+item.dough.name=Dough
+item.waffle.name=Waffle
+item.waffle_with_chocolate_sauce.name=Waffle With Chocolate Sauce
+item.waffle_with_strawberry_sauce.name=Waffle With Strawberry Sauce
+item.waffle_with_blueberry_sauce.name=Waffle With Blueberry Sauce
+item.waffle_with_apple_sauce.name=Waffle With Apple Sauce
+item.sugared_waffle.name=Sugared Waffle
+item.waffle_with_chocolate_ice_cream.name=Waffle With Chocolate Ice Cream
+
+item.rice_waffle.name=Rice Waffle
+
+item.pudding.name=Pudding
+item.rice_pudding.name=Rice Pudding
+
+//Crop stuff
+
+item.strawberry_seeds.name=Strawberry Seeds
+item.strawberry.name=Strawberry
+item.frost_strawberry.name=Frost Strawberry
+item.perfect_strawberry.name=Perfect Strawberry
+
+item.blueberry_seeds.name=Blueberry Seeds
+item.blueberry.name=Blueberry
+
+item.grape_seeds.name=Grape Seeds
+item.grape.name=Grapes
+
+item.raw_asparagus.name=Raw Asparagus
+item.overripe_asparagus.name=Overripe Asparagus
+
+item.bell_pepper_seeds.name=Bell Pepper Seeds
+item.green_bell_pepper.name=Green Bell Pepper
+item.yellow_bell_pepper.name=Yellow Bell Pepper
+item.red_bell_pepper.name=Red Bell Pepper
+
+item.tomato_seeds.name=Tomato Seeds
+item.tomato.name=Tomato
+
+item.raw_onion.name=Raw Onion
+
+item.lettuce_seeds.name=Lettuce Seeds
+item.lettuce.name=Lettuce
+
+item.raw_corn.name=Raw Corn
+
+item.rice.name=Rice
+
+item.green_olive.name=Green Olive
+item.black_olive.name=Black Olive
+item.olive_pit.name=Olive Pit
+
+item.mango.name=Mango
+item.mango_pit.name=Mango Pit
+
+//Cakes
+
+item.chocolate_cake_reed.name=Chocolate Cake
+item.strawberry_cake_reed.name=Strawberry Cake
+item.blueberry_cake_reed.name=Blueberry Cake
+item.apple_cake_reed.name=Apple Cake
+item.caramel_cake_reed.name=Caramel Cake
+item.carrot_cake_reed.name=Carrot Cake
+item.fruit_cake_reed.name=Fruit Cake
+item.pumpkin_cake_reed.name=Pumpkin Cake
+item.grape_cake_reed.name=Grape Cake
+item.cheese_cake_reed.name=Cheese Cake
+item.cheese_block_reed.name=Cheese Block
+
+tile.pizza_dough.name=Pizza Dough
+tile.raw_pizza_with_tomato_sauce.name=Raw Pizza With Tomato Sauce
+tile.raw_pizza_margharita.name=Raw Pizza Margharita
+tile.raw_pizza_onion.name=Raw Pizza Onion
+tile.raw_pizza_bacon.name=Raw Pizza Bacon
+tile.raw_pizza_mushroom.name=Raw Pizza Funghi
+
+tile.pizza_margharita.name=Pizza Margharita
+tile.pizza_onion.name=Pizza Onion
+tile.pizza_bacon.name=Pizza Bacon
+tile.pizza_mushroom.name=Pizza Funghi
+
+//Blocks
+tile.rock_salt_ore.name=Rock Salt Ore
+tile.sea_salt_ore.name=Sea Salt Ore
+
+tile.mangoes.name=Mango Crop
+
+tile.mango_leaves.name=Mango leaves
+
+tile.olive_leaves_stage0.name=Olive Leaves
+tile.olive_leaves_stage1.name=Olive Leaves [Stage: 1]
+tile.olive_leaves_stage2.name=Olive Leaves [Stage: 2]
+tile.olive_leaves_stage3.name=Olive Leaves [Stage: 3]
+
+tile.sapling.mango.name=Mango Sapling
+tile.sapling.olive.name=Olive Sapling
+tile.mango_plant.name=Mango Plant
+tile.olive_plant.name=Olive Plant
+
+container.cookingFurnace=Cooking Furnace
+tile.cooking_furnace.name=Cooking Furnace
+tile.cooking_furnace_on.name=Cooking Furnace [On]
+
+container.sauceMaker=Sauce Maker
+tile.sauce_maker.name=Sauce Maker
+tile.sauce_maker_on.name=Sauce Maker [On]
+
+container.iceCreamMaker=Ice Cream Maker
+tile.ice_cream_maker.name=Ice Cream Maker
+tile.ice_cream_maker_ice.name=Ice Cream Maker [Ice]
+tile.ice_cream_maker_on.name=Ice Cream Maker [On]
+
+container.boiler=Boiler
+tile.boiler.name=Boiler
+tile.boiler_on.name=Boiler [On]
+tile.boiler_water.name=Boiler [Water]
+tile.boiler_burning.name=Boiler [Burning]
+
+container.dehydrator=Dehydrator
+tile.dehydrator.name=Dehydrator
+tile.dehydrator_on.name=Dehydrator [On]
+tile.dehydration_plate.name=Dehydration Plate
+
+container.waffleMaker=Waffle Maker
+tile.waffle_maker.name=Waffle Maker
+tile.waffle_maker_on.name=Waffle Maker [On]
+tile.waffle_maker_waffle1=Waffle Maker [On, 1 waffle]
+tile.waffle_maker_waffle2=Waffle Maker [On, 2 waffles]
+tile.waffle_iron_plate.name=Waffle Iron Plate
+
+tile.nori.name=Nori Plant
+
+tile.milk_barrel.name=Milk Barrel
+item.milk_barrel_reed.name=Milk Barrel
+
+tile.butter_churn.name=Butter Churn
+
+itemGroup.tabChef=Master Chef Mod
